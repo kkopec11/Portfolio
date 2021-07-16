@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com">
