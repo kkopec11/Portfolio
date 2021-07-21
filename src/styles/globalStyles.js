@@ -12,13 +12,12 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-
   }
   body {
     font-family: ${props => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: ${props => props.theme.colors.background1};
-    color: ${props => props.theme.colors.primary1};
+    background: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.font};
     cursor: default;
 
   }
@@ -31,7 +30,6 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
 `;
 
 export default GlobalStyles;
