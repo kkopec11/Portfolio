@@ -3,7 +3,8 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 import { BsPersonSquare } from 'react-icons/bs';
 
-import { Container, DivTitle, DivLinks, DivIcons, NavLink, SocialIcons, Span, PortfolioTitle } from './styles';
+import { Container, DivTitle, DivLinks, DivIcons, NavLink, Span, PortfolioTitle } from './styles';
+import { SocialIcons } from '../../styles/components/globalComponents';
 
 const Header = () => (
     <Container>
@@ -27,12 +28,7 @@ const Header = () => (
             </li>
             <li>
                 <Link href="#about">
-                    <NavLink>About me</NavLink>
-                </Link>
-            </li>
-            <li>
-                <Link href="#contact">
-                    <NavLink>Contact</NavLink>
+                    <NavLink>About</NavLink>
                 </Link>
             </li>
         </DivLinks>

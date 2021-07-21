@@ -1,4 +1,3 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -18,16 +17,16 @@ export const Container = styled.div`
   }
 `;
 
+export const Span = styled.span`
+  font-size: 2rem;
+  margin-left: 4px;
+`;
+
 export const PortfolioTitle = styled.a`
   display: flex;
   color: white;
   align-items: center;
   align-content: center;
-`;
-
-export const Span = styled.span`
-  font-size: 2rem;
-  margin-left: 4px;
 `;
 
 export const DivTitle = styled.div`
@@ -73,15 +72,3 @@ export const NavLink = styled.a`
     padding: 0.5rem;
   }
 `;
-
-export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
-  padding: 8px;
-&:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
-  }
-`
