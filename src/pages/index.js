@@ -1,22 +1,10 @@
-import Hero from '../components/Hero/Hero';
-import Projects from '../components/Projects/Projects';
-import Technologies from '../components/Technologies/Technologies';
-import Timeline from '../components/TimeLine/TimeLine';
-import { Layout } from '../layout/Layout';
-import { Section } from '../styles/GlobalComponents';
+import styled from 'styled-components'
 
-const Home = () => {
-  return (
-    <Layout>
-      <Section grid>
-        <Hero />
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      {/* <Acomplishments /> */}
-    </Layout>
-  );
-};
+const Title = styled.h1`
+  font-size: 50px;
+  color: ${({ theme }) => theme.colors.primary};
+`
 
-export default Home;
+export default function Home() {
+  return <Title>My page</Title>
+}
