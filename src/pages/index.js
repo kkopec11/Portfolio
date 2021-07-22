@@ -1,13 +1,13 @@
 import { Layout } from '../components/Layout/Layout';
-
+import Welcome from '../components/Welcome/Welcome';
 
 export default function Home() {
   return (
     <Layout>
-      <h1>H1   gggg</h1>
-      <body>
-        body  gg
-      </body>
+      <Welcome />
+      {/* <Projects />
+      <Technologies />
+      <Timeline /> */}
     </Layout>
   )
 }
