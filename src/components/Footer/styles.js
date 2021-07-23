@@ -7,7 +7,6 @@ export const FooterWrapper = styled.section`
   margin: 1rem auto;
   box-sizing: content-box;
 
-
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
@@ -65,7 +64,6 @@ export const CompanyContainer = styled.div`
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
-	
 
 	@media ${props => props.theme.breakpoints.md}{
 		flex-direction: column;

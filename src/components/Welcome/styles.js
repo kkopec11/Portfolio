@@ -4,9 +4,6 @@ import styled from 'styled-components';
 export const WelcomeSection = styled.section`
   padding: 32px 48px 0;
   max-width: 1040px;
-  box-sizing: content-box;
-  position: relative;
-  overflow: hidden;
   grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -41,7 +38,7 @@ export const WelcomeTitle = styled.h2`
   line-height:56px;
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #ffffff 18.77%,rgba(255, 255, 255, 0.5) 60.15%);
+  background: linear-gradient(121.57deg, #ffffff 18.77%,rgba(255, 255, 255, 0.66)  60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
@@ -68,6 +65,8 @@ export const WelcomeText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
+  padding-left: 3.6rem;
+
   color: rgba(255, 255, 255, 0.5);
 
   @media ${(props) => props.theme.breakpoints.md} {
