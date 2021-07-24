@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const SectionDivider = styled.div`
-  /* width: 256px; */
-  width: 64px;
+  width: 256px;
+  /* width: 64px; */
   height: 8px;
   border-radius: 10px;
   background-color: #fff;

@@ -38,7 +38,7 @@ export const WelcomeTitle = styled.h2`
   line-height:56px;
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #ffffff 18.77%,rgba(255, 255, 255, 0.66)  60.15%);
+  background: ${props => props.theme.colors.backgroundTitle};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
@@ -64,7 +64,6 @@ export const WelcomeText = styled.p`
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
   padding-left: 3.6rem;
 
   color: rgba(255, 255, 255, 0.5);

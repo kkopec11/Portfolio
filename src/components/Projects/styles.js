@@ -14,7 +14,7 @@ export const ProjectsSection = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0;
+    padding: 0 auto;
     width: calc(100vw - 32px);
     flex-direction: column;
   }
@@ -26,7 +26,7 @@ export const ProjectsTitle = styled.h2`
   line-height: 72px;
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: ${props => props.theme.colors.backgroundTitle};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
@@ -40,7 +40,6 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px;
-
 `
 
 export const GridContainer = styled.section`
@@ -73,23 +72,31 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  margin-top: 15px;
 `;
 
 
-export const Title = styled.h3`
+export const Title = styled.h2`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
   padding: .5rem 0;
  
 `;
 
+export const StackTitle = styled.h3`
+  font-weight: 500;
+  letter-spacing: 2px;
+ 
+`;
+
 export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
+  width: 130px;
+  height: 4.5px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: linear-gradient(121.57deg, #ffffff ,#5396e4  , #0909c2);
+  border-radius: 10px;
+
 `;
 
 

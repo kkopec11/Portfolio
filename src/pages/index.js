@@ -8,8 +8,8 @@ export default function Home() {
     <Layout>
       <Welcome />
       <Projects />
-      {/* <Technologies />
-      <Timeline /> */}
+      {/* <Technologies /> */}
+      {/* <Timeline /> */}
     </Layout>
   )
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, Title, Hr, Tag, TagList, TitleContent, UtilityList, Img, ProjectsSection, ProjectsTitle } from './styles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, Title, Hr, Tag, TagList, TitleContent, UtilityList, Img, ProjectsSection, ProjectsTitle, StackTitle } from './styles';
 import { projects } from '../../constants/constants';
 import { SectionDivider } from '../../styles/components/globalComponents';
 
 const Projects = () => (
   <ProjectsSection id="projects">
-    <SectionDivider />
-    <ProjectsTitle>Projects</ProjectsTitle>
+    {/* <SectionDivider /> */}
+    <ProjectsTitle>My Projects</ProjectsTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) => (
         <BlogCard key={id}>
@@ -18,7 +18,7 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent><StackTitle>Stack</StackTitle></TitleContent>
             <TagList>
               {tags.map((tag, id) => (
                 <Tag key={id}>{tag}</Tag>

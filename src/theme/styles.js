@@ -8,6 +8,7 @@ export default {
     colors: {
         font: "rgb(255, 255, 255)",
         background: "rgb(0, 0, 26)",
+        backgroundTitle: "linear-gradient(121.57deg, #ffffff ,#640799  , #990719)",
         // background: "#101010",
     },
     // Breakpoints for responsive design
