@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillFilePdf } from 'react-icons/ai';
 import { BsPersonSquare } from 'react-icons/bs';
 
-import { Container, DivTitle, DivLinks, DivIcons, NavLink, Span, PortfolioTitle } from './styles';
+import { Container, DivTitle, DivLinks, DivCVpdf, PdfIcon, DivIcons, NavLink, Span, PortfolioTitle, HiddenText } from './styles';
 import { SocialIcons } from '../../styles/components/globalComponents';
 
 const Header = () => (
@@ -32,6 +32,12 @@ const Header = () => (
                 </Link>
             </li>
         </DivLinks>
+        <DivCVpdf>
+            <PdfIcon  >
+                <AiFillFilePdf download size="4rem" />
+                <HiddenText href="../../public/Krzysztof.Kopeć.CV.pdf" download>Download my CV</HiddenText>
+            </PdfIcon>
+        </DivCVpdf>
         <DivIcons>
             <SocialIcons href="https://github.com/kkopec11">
                 <AiFillGithub size="3rem" />
@@ -46,7 +52,7 @@ const Header = () => (
                 <AiFillFacebook size="3rem" />
             </SocialIcons>
         </DivIcons>
-    </Container>
+    </Container >
 );
 
 export default Header;
