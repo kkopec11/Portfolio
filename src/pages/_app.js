@@ -3,9 +3,9 @@ import Theme from '../theme/theme';
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Theme>
+      {/* <Theme>
         <Component {...pageProps} />
-      </Theme>
+      </Theme> */}
     </>
   )
 }
