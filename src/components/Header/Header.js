@@ -6,6 +6,7 @@ import { BsPersonSquare } from 'react-icons/bs';
 import { Container, DivTitle, DivLinks, DivCVpdf, PdfIcon, DivIcons, NavLink, Span, PortfolioTitle, HiddenText } from './styles';
 import { SocialIcons } from '../../styles/components/globalComponents';
 
+
 const Header = () => (
     <Container>
         <DivTitle>
@@ -33,9 +34,9 @@ const Header = () => (
             </li>
         </DivLinks>
         <DivCVpdf>
-            <PdfIcon  >
+            <PdfIcon>
                 <AiFillFilePdf download size="4rem" />
-                <HiddenText href="../../public/Krzysztof.Kopeć.CV.pdf" download>Download my CV</HiddenText>
+                <HiddenText href="Krzysztof.Kopeć.CV.pdf" download>Download my CV</HiddenText>
             </PdfIcon>
         </DivCVpdf>
         <DivIcons>
