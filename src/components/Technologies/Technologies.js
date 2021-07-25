@@ -19,10 +19,10 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Front-end</ListTitle>
                     <ListParagraph>
-                        <NameAndIconContainer>
-                            React.js
-                            <DiReact size="3rem" />
-                        </NameAndIconContainer>
+                        {/* <NameAndIconContainer> */}
+                        React.js
+                        <DiReact size="3rem" />
+                        {/* </NameAndIconContainer> */}
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -31,14 +31,17 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Back-end</ListTitle>
                     <ListParagraph>
-                        <NameAndIconContainer>
-                            Node.js
-                            <DiNodejsSmall size="3rem" />
-                        </NameAndIconContainer>
-                        <NameAndIconContainer>
-                            C#
-                            <SiDotNet size="3rem" />
-                        </NameAndIconContainer>
+                        {/* <NameAndIconContainer> */}
+                        Node.js
+                        <DiNodejsSmall size="3rem" />
+                    </ListParagraph>
+                    <ListParagraph>
+
+                        {/* </NameAndIconContainer> */}
+                        {/* <NameAndIconContainer> */}
+                        C#
+                        <SiDotNet size="3rem" />
+                        {/* </NameAndIconContainer> */}
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -47,22 +50,22 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Data-Base</ListTitle>
                     <ListParagraph>
-                        <NameAndIconContainer>
-                            Oracle
-                            <SiOracle size="3rem" />
-                        </NameAndIconContainer>
+                        {/* <NameAndIconContainer> */}
+                        Oracle
+                        <SiOracle size="3rem" />
+                        {/* </NameAndIconContainer> */}
                     </ListParagraph>
                     <ListParagraph>
-                        <NameAndIconContainer>
-                            MongoDB
-                            <DiMongodb size="3rem" />
-                        </NameAndIconContainer>
+                        {/* <NameAndIconContainer> */}
+                        MongoDB
+                        <DiMongodb size="3rem" />
+                        {/* </NameAndIconContainer> */}
                     </ListParagraph>
                     <ListParagraph>
-                        <NameAndIconContainer>
-                            MS SQL
-                            <DiMsqlServer size="3rem" />
-                        </NameAndIconContainer>
+                        {/* <NameAndIconContainer> */}
+                        MS SQL
+                        <DiMsqlServer size="3rem" />
+                        {/* </NameAndIconContainer> */}
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -71,10 +74,10 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Other</ListTitle>
                     <ListParagraph>
-                        <NameAndIconContainer>
-                            GitHub
-                            <DiGit size="3rem" />
-                        </NameAndIconContainer>
+                        {/* <NameAndIconContainer> */}
+                        GitHub
+                        <DiGit size="3rem" />
+                        {/* </NameAndIconContainer> */}
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
