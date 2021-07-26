@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook, AiFillFilePdf } from 'react-icons/ai';
 import { BsPersonSquare } from 'react-icons/bs';
 
-import { Container, DivTitle, DivLinks, DivCVpdf, PdfIcon, DivIcons, NavLink, Span, PortfolioTitle, HiddenText } from './styles';
+import { Container, DivTitle, DivLinks, DivCVpdf, PdfIcon, DivIcons, NavLink, Span, PortfolioTitle, HiddenText, PdfLink } from './styles';
 import { SocialIcons } from '../../styles/components/globalComponents';
 
 
@@ -35,8 +35,11 @@ const Header = () => (
         </DivLinks>
         <DivCVpdf>
             <PdfIcon>
-                <AiFillFilePdf download size="5rem" />
-                <HiddenText href="Krzysztof.Kopeć.CV.pdf" download>Download my CV</HiddenText>
+                <PdfLink href="Krzysztof.Kopeć.CV.pdf" download>
+                    <AiFillFilePdf download size="5rem" />
+                    <HiddenText > Download my CV </HiddenText>
+
+                </PdfLink>
             </PdfIcon>
         </DivCVpdf>
         <DivIcons>

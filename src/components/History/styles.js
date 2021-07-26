@@ -60,8 +60,8 @@ export const Container = styled.ul`
   display: grid;
   grid-template-columns: repeat(1, 4fr);
   gap: 30px;
-  padding-left: 3.6rem;
-  padding-bottom: 3.6rem;
+  /* padding-left: 3.6rem;
+  padding-bottom: 3.6rem; */
 
   @media ${props => props.theme.breakpoints.lg}{
     margin: 64px 0;

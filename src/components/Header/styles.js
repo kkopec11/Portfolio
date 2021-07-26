@@ -79,6 +79,12 @@ export const PdfIcon = styled.div`
   }
 `;
 
+export const PdfLink = styled.a`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+`;
 
 export const DivIcons = styled.div`
   grid-area: 1 / 5 / 2 / 6;
