@@ -36,7 +36,7 @@ const Header = () => (
         <DivCVpdf>
             <PdfIcon>
                 <PdfLink href="Krzysztof.Kopeć.CV.pdf" download>
-                    <AiFillFilePdf download size="5rem" />
+                    <AiFillFilePdf download size="4.1rem" />
                     <HiddenText > Download my CV </HiddenText>
 
                 </PdfLink>
