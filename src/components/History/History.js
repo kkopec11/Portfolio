@@ -1,17 +1,24 @@
 import React from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, Section, SectionText, SectionTitle } from './styles';
+import { HistorySection, Title, TextUnderTitle, Container, Item, Img } from './styles';
 import { TimeLineData } from '../../constants/constants';
 
-
 const History = () => (
-    <Section id="about">
-        <SectionTitle>About me</SectionTitle>
-        <SectionText>
+    <HistorySection id="about">
+        <Title>About me</Title>
+        <TextUnderTitle>
             My programing stared....
-        </SectionText>
-        <>asdasdasd
-        </>
-    </Section>
+        </TextUnderTitle>
+        <Container>
+            {TimeLineData.map(({ id, image, year, title, text }) => (
+                <Item key={id} >
+                    <Img src={image} />
+                    <h4>{year}</h4>
+                    <h3>{title}</h3>
+                    <p>{text}</p>
+                </Item>
+            ))}
+        </Container>
+    </HistorySection>
 );
 export default History;

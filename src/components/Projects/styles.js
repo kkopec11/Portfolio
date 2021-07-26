@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
 export const ProjectsSection = styled.section`
-
-  padding: 32px 48px 0;
+  padding: 32px 48px 0 ;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
-
+  margin-bottom: 3.6rem;
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
     flex-direction: column;
@@ -54,7 +53,7 @@ row-gap: 4rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 15px;
 }
 
 `

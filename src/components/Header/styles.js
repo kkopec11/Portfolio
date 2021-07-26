@@ -45,7 +45,7 @@ export const DivLinks = styled.div`
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 2 / 3 / 6;
   }
 `;
 
