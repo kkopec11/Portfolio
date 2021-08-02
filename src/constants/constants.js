@@ -1,16 +1,16 @@
 export const projects = [
   {
-    title: 'Photo Album',
-    description: "Very simple photo album web-app. It was one from my first projects when I have been learning MaterialUI library",
-    image: '/images/PhotoAlbum.png',
-    tags: ['React', 'MaterialUI'],
-    source: 'https://photo-album-kk119.netlify.app/',
-    visit: 'https://github.com/kkopec11/PhotoAlbum',
+    title: 'Weather App',
+    description: "My own implemation of classic weather-app. In the futhure will be added backend with database conaining list of cities and counies for selecting these values rather than writing them",
+    image: '/images/Weather.png',
+    tags: ['React', 'Styled-Components', "Axios"],
+    source: 'https://weather-app-kkopec119.netlify.app',
+    visit: 'https://github.com/kkopec11/Weather.App',
     id: 0,
   },
   {
     title: 'Photo Album',
-    description: "Very simple photo album web-app. It was one from my first projects when I have been learning MaterialUI library",
+    description: "Very simple photo album web-app. It was one from my first projects when I have been learning MaterialUI library. In the future I'm going to add funcionalities like creating accounts",
     image: '/images/PhotoAlbum.png',
     tags: ['React', 'MaterialUI'],
     source: 'https://photo-album-kk119.netlify.app/',
@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Photo Album',
-    description: "Very simple photo album web-app. It was one from my first projects when I have been learning MaterialUI library",
+    description: "Very simple photo album web-app. It was one from my first projects when I have been learning MaterialUI library. In the future I'm going to add funcionalities like creating accounts",
     image: '/images/PhotoAlbum.png',
     tags: ['React', 'MaterialUI'],
     source: 'https://photo-album-kk119.netlify.app/',
