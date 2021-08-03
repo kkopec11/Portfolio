@@ -55,6 +55,7 @@ export const WelcomeTitle = styled.h2`
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 8px;
+
     max-width: 100%;
   }
 `
@@ -79,5 +80,6 @@ export const WelcomeText = styled.p`
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
+    padding-top: 10px;
   }
 `

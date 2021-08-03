@@ -30,6 +30,12 @@ export const Title = styled.h2`
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
   padding: 58px 0 16px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  }
 `
 
 export const TextUnderTitle = styled.p`
