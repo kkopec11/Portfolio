@@ -56,6 +56,7 @@ export const DivCVpdf = styled.div`
   flex-direction: column;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 1 / 3 / 2;
+    padding-right: 22px;
   }
 `;
 export const HiddenText = styled.a`

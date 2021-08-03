@@ -39,6 +39,9 @@ export const Img = styled.img`
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width:248px;
+}
 `
 
 export const GridContainer = styled.section`
