@@ -28,13 +28,13 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
+		font-size: 24px;
 		line-height: 28px;
 		display: flex;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 15px;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -96,6 +96,8 @@ export const Slogan = styled.p`
 		line-height: 22px;
 		font-size: 14px;
 		min-width: 100px;
+		margin-left: 1.7em;
+
 	}
 `
 
@@ -129,7 +131,8 @@ export const LinkList = styled.ul`
 	}
 	@media ${props => props.theme.breakpoints.sm} {
 		width: 100%;
-		padding: 32px 4px 16px;
+		padding: 32px 4px 16px 4px;
+		margin-left: 1.7em;
 		gap: 5px;
 	}
 `
@@ -150,8 +153,8 @@ export const LinkTitle = styled.h4`
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 10px;
-		line-height: 12px;
-		margin-bottom: 8px;
+		font-size: 13px;
+		line-height: 13px;
+		margin-bottom: 12px;
 	}
 `

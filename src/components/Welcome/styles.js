@@ -52,10 +52,7 @@ export const WelcomeTitle = styled.h2`
   @media ${props => props.theme.breakpoints.sm}{
     font-size: 32px;
     line-height: 40px;
-    font-size: 32px;
-    line-height: 40px;
     margin-bottom: 8px;
-
     max-width: 100%;
   }
 `

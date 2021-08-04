@@ -40,7 +40,8 @@ export const Img = styled.img`
   overflow: hidden;
   border-radius: 10px;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width:248px;
+    width: 100%;
+
 }
 `
 
