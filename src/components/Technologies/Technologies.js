@@ -51,7 +51,7 @@ const Technologies = () => (
                     <ListParagraph>
                         <ItemIcon>
                             <p>Node</p>
-                            <DiNodejsSmall size="3rem" />
+                            <DiNodejsSmall size="3rem" style={{ paddingLeft: 2 }} />
                         </ItemIcon>
                     </ListParagraph>
                     <ListParagraph>
