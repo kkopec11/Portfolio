@@ -2,9 +2,9 @@ import React from 'react';
 import { DiReact, DiGit, DiMongodb, DiMsqlServer, DiNodejsSmall, DiDatabase } from 'react-icons/di';
 import { RiListSettingsLine } from 'react-icons/ri';
 import { FaDesktop, FaCode } from 'react-icons/fa';
-import { SiDotNet, SiOracle } from 'react-icons/si';
+import { SiDotNet, SiOracle, SiMaterialUi, SiStyledComponents, SiRedux } from 'react-icons/si';
 
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechnologiesSection, TextUnderTitle, Title, NameAndIconContainer } from './styles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, TechnologiesSection, TextUnderTitle, Title, ItemIcon } from './styles';
 
 const Technologies = () => (
     <TechnologiesSection id="tech">
@@ -19,10 +19,28 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Front-end</ListTitle>
                     <ListParagraph>
-                        {/* <NameAndIconContainer> */}
-                        React.js
-                        <DiReact size="3rem" />
-                        {/* </NameAndIconContainer> */}
+                        <ItemIcon>
+                            <p>React</p>
+                            <DiReact size="3rem" />
+                        </ItemIcon>
+                    </ListParagraph>
+                    <ListParagraph>
+                        <ItemIcon>
+                            <p>Redux</p>
+                            <SiRedux size="2.8rem" style={{ paddingLeft: 4 }} />
+                        </ItemIcon>
+                    </ListParagraph>
+                    <ListParagraph>
+                        <ItemIcon>
+                            <p>Maerial UI</p>
+                            <SiMaterialUi size="2.8rem" style={{ paddingLeft: 3 }} />
+                        </ItemIcon>
+                    </ListParagraph>
+                    <ListParagraph>
+                        <ItemIcon>
+                            <p>Styled-Components</p>
+                            <SiStyledComponents size="3.2rem" style={{ paddingLeft: 3 }} />
+                        </ItemIcon>
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -31,17 +49,16 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Back-end</ListTitle>
                     <ListParagraph>
-                        {/* <NameAndIconContainer> */}
-                        Node.js
-                        <DiNodejsSmall size="3rem" />
+                        <ItemIcon>
+                            <p>Node</p>
+                            <DiNodejsSmall size="3rem" />
+                        </ItemIcon>
                     </ListParagraph>
                     <ListParagraph>
-
-                        {/* </NameAndIconContainer> */}
-                        {/* <NameAndIconContainer> */}
-                        C#
-                        <SiDotNet size="3rem" />
-                        {/* </NameAndIconContainer> */}
+                        <ItemIcon>
+                            <p>C#</p>
+                            <SiDotNet size="3.3rem" style={{ paddingLeft: 2 }} />
+                        </ItemIcon>
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -50,22 +67,22 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Data-Base</ListTitle>
                     <ListParagraph>
-                        {/* <NameAndIconContainer> */}
-                        Oracle
-                        <SiOracle size="3rem" />
-                        {/* </NameAndIconContainer> */}
+                        <ItemIcon>
+                            <p>Oracle</p>
+                            <SiOracle size="3rem" style={{ paddingLeft: 3 }} />
+                        </ItemIcon>
                     </ListParagraph>
                     <ListParagraph>
-                        {/* <NameAndIconContainer> */}
-                        MongoDB
-                        <DiMongodb size="3rem" />
-                        {/* </NameAndIconContainer> */}
+                        <ItemIcon>
+                            <p>MongoDB</p>
+                            <DiMongodb size="3rem" />
+                        </ItemIcon>
                     </ListParagraph>
                     <ListParagraph>
-                        {/* <NameAndIconContainer> */}
-                        MS SQL
-                        <DiMsqlServer size="3rem" />
-                        {/* </NameAndIconContainer> */}
+                        <ItemIcon>
+                            <p>MS SQL</p>
+                            <DiMsqlServer size="3rem" />
+                        </ItemIcon>
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
@@ -74,10 +91,10 @@ const Technologies = () => (
                 <ListContainer>
                     <ListTitle>Other</ListTitle>
                     <ListParagraph>
-                        {/* <NameAndIconContainer> */}
-                        GitHub
-                        <DiGit size="3rem" />
-                        {/* </NameAndIconContainer> */}
+                        <ItemIcon>
+                            <p>Git</p>
+                            <DiGit size="3rem" />
+                        </ItemIcon>
                     </ListParagraph>
                 </ListContainer>
             </ListItem>

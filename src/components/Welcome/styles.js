@@ -12,7 +12,7 @@ export const WelcomeSection = styled.section`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 16px 16px 0 ;
+    padding: 0 auto;
     width: calc(100vw - 32px);
     flex-direction: column;
   }

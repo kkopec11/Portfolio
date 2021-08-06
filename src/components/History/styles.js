@@ -87,9 +87,11 @@ export const Item = styled.div`
   text-align: center;
   height: auto;
   margin: 20px;
-  padding: 20px;
+  padding: 20px 7rem 30px 7rem ;
   @media ${(props) => props.theme.breakpoints.sm} {
     height: 100%;
+    padding: 20px ;
+
   }
 `;
 

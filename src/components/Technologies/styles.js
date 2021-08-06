@@ -146,8 +146,9 @@ export const ListItem = styled.li`
   flex-direction: row;
 }
 `
-
-export const NameAndIconContainer = styled.li`
-  display: flex;
-  flex-direction: inherit;
+export const ItemIcon = styled.div`
+padding: 3px;
+display:flex;
+align-items: center;
 `
+
