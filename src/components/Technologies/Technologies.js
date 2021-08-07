@@ -33,13 +33,13 @@ const Technologies = () => (
                     <ListParagraph>
                         <ItemIcon>
                             <p>Maerial UI</p>
-                            <SiMaterialUi size="2.8rem" style={{ paddingLeft: 3 }} />
+                            <SiMaterialUi size="2.5rem" style={{ paddingLeft: 3 }} />
                         </ItemIcon>
                     </ListParagraph>
                     <ListParagraph>
                         <ItemIcon>
                             <p>Styled-Components</p>
-                            <SiStyledComponents size="3.2rem" style={{ paddingLeft: 3 }} />
+                            <SiStyledComponents size="3.5rem" style={{ paddingLeft: 3 }} />
                         </ItemIcon>
                     </ListParagraph>
                 </ListContainer>
