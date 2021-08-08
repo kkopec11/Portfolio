@@ -7,12 +7,12 @@ const Welcome = (props) => (
         <LeftSection>
             <WelcomeTitle>
                 Welcome To <br />
-                Christopher's Kopeć Portfolio
+                Krzysztof Kopeć's Portfolio
             </WelcomeTitle>
             <WelcomeText>
-                As a graduating IT enginer with data-base specialization I'm targeing myself to become a full-stack web developer in a future. <br />
-                I'm a programming enthusiast in each field but for now I'm fascinate about Front-end and especially in React. <br />
-                Despite that I have an analitycs way of thinking and for a proof for that I can commend myself with an expiernce as a Data Science Analyst & SAS Developer.
+                As a graduating IT enginer with data-base specialization I am aiming to become a full-stack web developer in the future. <br />
+                I am enthusiastic about all fields of programming, with a fascination for front-end and especially React.<br />
+                This is complimented by an analytical approach as evidenced by my success as a Data Science Analyst and SAS Developer.
             </WelcomeText>
         </LeftSection>
     </WelcomeSection>

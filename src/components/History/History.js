@@ -7,7 +7,7 @@ const History = () => (
     <HistorySection id="about">
         <Title>About me</Title>
         <TextUnderTitle>
-            My programing stared....
+            My programing started…....
         </TextUnderTitle>
         <Container>
             {TimeLineData.map(({ id, image, year, title, text }) => (
