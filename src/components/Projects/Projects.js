@@ -2,7 +2,6 @@ import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, Title, Hr, Tag, TagList, TitleContent, UtilityList, Img, ProjectsSection, ProjectsTitle, StackTitle } from './styles';
 import { projects } from '../../constants/constants';
-import { SectionDivider } from '../../styles/components/globalComponents';
 
 const Projects = () => (
   <ProjectsSection id="projects">

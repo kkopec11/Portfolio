@@ -2,7 +2,7 @@
 import styled from 'styled-components'
 
 export const HistorySection = styled.section`
-  padding: 32px 48px 0;
+  padding: 32px 48px 30px 48px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -83,18 +83,32 @@ export const Item = styled.div`
   background-color: white;
   color: black;
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  /* box-shadow: 3px 3px 20px #640799; */
+  box-shadow: 2px 2px  15px #8abbdf;
+
   text-align: center;
   height: auto;
-  margin: 20px;
-  padding: 20px 7rem 30px 7rem ;
+  /* width: 60em; */
+  margin: 0.5em 11em 0.5em 11em;
+  padding: 25px 3rem 20px 3rem ;
   @media ${(props) => props.theme.breakpoints.sm} {
     height: 100%;
     padding: 20px ;
-
+    margin: 20px;
   }
 `;
 
 export const Img = styled.img`
 width: 150px;
+`
+export const Year = styled.h4`
+margin: 10px;
+`
+export const TitleItem = styled.h3`
+margin: 10px;
+
+`
+export const TextItem = styled.p`
+margin: 10px;
+
 `
