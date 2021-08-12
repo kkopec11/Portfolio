@@ -2,7 +2,7 @@ export const projects = [
 
   {
     title: 'Event4You',
-    description: "MERN type application with Redux for authorization - also user is able to login by GoogleOAuth. Events photos are storen on MongoDB with base64 encrypting. Each event can be liked by the other users. In the futhure: there will be added a 'comment' funcionality, searching option fopr tags, adding event to favourite and GoogleMaps for locating the event's place/adress. ",
+    description: "MERN type application with Redux for authorization. Pictures are stored on MongoDB with base64 encrypting.  I am going to be adding further functionalities, such as commentary section, searching for tags, adding event to favourite and GoogleMaps. ",
     image: '/images/Event4You.png',
     tags: ['React', 'MaterialUI', 'Redux', 'MERN'],
     source: 'https://event4you-kkopec.netlify.app/',
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: 'Photo Album',
-    description: "A photo album web-app.  One of my first projects when I was learning MaterialUI library.  I am going to be adding further functionalities such as account creation.",
+    description: "A photo album web-app. One of my first projects when I was learning MaterialUI library. I am going to be adding further functionalities such as account creation, saving photos to favourite and tags with searching field.",
     image: '/images/PhotoAlbum.png',
     tags: ['React', 'MaterialUI'],
     source: 'https://photo-album-kkopec.netlify.app',

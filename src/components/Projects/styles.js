@@ -34,6 +34,8 @@ export const ProjectsTitle = styled.h2`
 
 
 export const Img = styled.img`
+  grid-area: 1 / 1 / 2 / 2;
+
   width:300px;
   height:150px;
   object-fit: cover;
@@ -66,9 +68,13 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 300px;
   margin: auto;
-  height: max-content;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 3;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    height: max-content;
   }
 `;
 
@@ -152,4 +158,16 @@ font-size: 1.5rem;
   
 }
 `
+export const BottomDiv = styled.div`
+  grid-area: 3 / 1 / 4 / 2;
 
+`;
+
+export const MainDiv = styled.div`
+  grid-area: 2 / 1 / 3 / 2;
+  height: 363px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    height: initial;
+  
+}
+`;
