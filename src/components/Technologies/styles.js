@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const TechnologiesSection = styled.section`
   padding: 32px 48px 0;
@@ -17,7 +17,7 @@ export const TechnologiesSection = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
-`
+`;
 
 export const Title = styled.h2`
   font-weight: 800;
@@ -25,7 +25,7 @@ export const Title = styled.h2`
   line-height: 72px;
   width: max-content;
   max-width: 100%;
-  background: ${props => props.theme.colors.backgroundTitle};
+  background: ${(props) => props.theme.colors.backgroundTitle};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
@@ -33,10 +33,10 @@ export const Title = styled.h2`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     overflow-wrap: break-word;
-  word-wrap: break-word;
-  hyphens: auto;
+    word-wrap: break-word;
+    hyphens: auto;
   }
-`
+`;
 
 export const TextUnderTitle = styled.p`
   max-width: 800px;
@@ -59,7 +59,7 @@ export const TextUnderTitle = styled.p`
     line-height: 24px;
     padding-bottom: 16px;
   }
-`
+`;
 
 export const List = styled.ul`
   display: grid;
@@ -67,86 +67,85 @@ export const List = styled.ul`
   gap: 40px;
   padding-left: 3.6rem;
   margin: 3rem 0;
-  
-  @media ${props => props.theme.breakpoints.lg}{
+
+  @media ${(props) => props.theme.breakpoints.lg} {
     margin: 64px 0;
   }
 
-  @media ${props => props.theme.breakpoints.md}{
+  @media ${(props) => props.theme.breakpoints.md} {
     margin: 64px 0;
-    gap: 24px
+    gap: 24px;
   }
-  
-  @media ${props => props.theme.breakpoints.sm}{
+
+  @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
     margin: 32px 0;
   }
-`
+`;
 
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media ${props => props.theme.breakpoints.sm}{
+  @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     margin-left: 18px;
   }
-`
+`;
 
 export const ListTitle = styled.h4`
   font-weight: 700;
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 8px;
 
-@media ${props => props.theme.breakpoints.md}{
-  font-size: 24px;
-  line-height: 28px;
-}
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 24px;
+    line-height: 28px;
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-  margin-bottom: 4px;
-}
-`
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+  }
+`;
 
 export const ListParagraph = styled.p`
   line-height: 30px;
 
-  @media ${props => props.theme.breakpoints.md}{
+  @media ${(props) => props.theme.breakpoints.md} {
     font-size: 16px;
     line-height: 28px;
   }
 
-  @media ${props => props.theme.breakpoints.sm}{
+  @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 14px;
     line-height: 22px;
   }
-`
+`;
 
 export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
 
-@media ${props => props.theme.breakpoints.md}{
-  max-width: 203px;
-}
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 203px;
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
-  margin-bottom: 14px;
-  max-width: 320px;
-  flex-direction: row;
-}
-`
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-bottom: 14px;
+    max-width: 320px;
+    flex-direction: row;
+  }
+`;
 export const ItemIcon = styled.div`
-padding: 3px;
-display:flex;
-align-items: center;
-`
-
+  padding: 3px;
+  display: flex;
+  align-items: center;
+`;

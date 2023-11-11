@@ -1,4 +1,4 @@
-import Theme from '../theme/theme';
+import Theme from "../theme/theme";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -7,5 +7,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
       </Theme>
     </>
-  )
+  );
 }

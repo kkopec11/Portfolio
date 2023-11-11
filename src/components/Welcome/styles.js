@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 
 export const WelcomeSection = styled.section`
   padding: 32px 48px 0;
@@ -16,7 +15,7 @@ export const WelcomeSection = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
-`
+`;
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -35,27 +34,27 @@ export const LeftSection = styled.div`
 export const WelcomeTitle = styled.h2`
   font-weight: 800;
   font-size: 56px;
-  line-height:56px;
+  line-height: 56px;
   width: max-content;
   max-width: 100%;
-  background: ${props => props.theme.colors.backgroundTitle};
+  background: ${(props) => props.theme.colors.backgroundTitle};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
 
-  @media ${props => props.theme.breakpoints.md}{
+  @media ${(props) => props.theme.breakpoints.md} {
     font-size: 48px;
     line-height: 48px;
     margin-bottom: 12px;
   }
 
-  @media ${props => props.theme.breakpoints.sm}{
+  @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 8px;
     max-width: 100%;
   }
-`
+`;
 
 export const WelcomeText = styled.p`
   max-width: 800px;
@@ -79,4 +78,4 @@ export const WelcomeText = styled.p`
     padding-bottom: 16px;
     padding-top: 10px;
   }
-`
+`;

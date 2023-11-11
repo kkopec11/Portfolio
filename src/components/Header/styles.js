@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
@@ -60,9 +60,9 @@ export const DivCVpdf = styled.div`
   }
 `;
 export const HiddenText = styled.a`
-color:white;
-visibility: hidden;
-`
+  color: white;
+  visibility: hidden;
+`;
 export const PdfIcon = styled.div`
   display: flex;
   align-items: center;
@@ -74,7 +74,7 @@ export const PdfIcon = styled.div`
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    ${HiddenText}{
+    ${HiddenText} {
       visibility: visible;
     }
   }
