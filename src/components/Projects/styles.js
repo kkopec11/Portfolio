@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProjectsSection = styled.section`
-  padding: 32px 48px 0 ;
+  padding: 32px 48px 0;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
@@ -17,7 +17,7 @@ export const ProjectsSection = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
   }
-`
+`;
 
 export const ProjectsTitle = styled.h2`
   font-weight: 800;
@@ -25,43 +25,40 @@ export const ProjectsTitle = styled.h2`
   line-height: 72px;
   width: max-content;
   max-width: 100%;
-  background: ${props => props.theme.colors.backgroundTitle};
+  background: ${(props) => props.theme.colors.backgroundTitle};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 24px;
   padding: 58px 0 16px;
-`
-
+`;
 
 export const Img = styled.img`
   grid-area: 1 / 1 / 2 / 2;
 
-  width:300px;
-  height:150px;
+  width: 300px;
+  height: 150px;
   object-fit: cover;
   overflow: hidden;
   border-radius: 10px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
-
-}
-`
+  }
+`;
 
 export const GridContainer = styled.section`
-display: grid;
-grid-template-columns: repeat(3, minmax(300px, 1fr));
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 4rem;
-@media ${(props) => props.theme.breakpoints.sm} {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  padding-bottom: 15px;
-}
-
-`
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  padding: 3rem;
+  place-items: center;
+  column-gap: 2rem;
+  row-gap: 4rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 15px;
+  }
+`;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -85,18 +82,15 @@ export const TitleContent = styled.div`
   margin-top: 15px;
 `;
 
-
 export const Title = styled.h2`
   font-weight: 500;
   letter-spacing: 2px;
-  padding: .5rem 0;
- 
+  padding: 0.5rem 0;
 `;
 
 export const StackTitle = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
- 
 `;
 
 export const Hr = styled.hr`
@@ -104,11 +98,9 @@ export const Hr = styled.hr`
   height: 4.5px;
   margin: 20px auto;
   border: 0;
-  background: linear-gradient(121.57deg, #ffffff ,#5396e4  , #0909c2);
+  background: linear-gradient(121.57deg, #ffffff, #5396e4, #0909c2);
   border-radius: 10px;
-
 `;
-
 
 export const CardInfo = styled.p`
   width: 100%;
@@ -119,10 +111,8 @@ export const CardInfo = styled.p`
   text-align: left;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.3rem 3rem;
-  
-}
+  }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
@@ -133,34 +123,31 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
-&:hover{
-  background: #801414;
-
-}
+  color: #d4c0c0;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  background: #6b3030;
+  border-radius: 15px;
+  transition: 0.5s;
+  &:hover {
+    background: #801414;
+  }
 `;
 
 export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
-padding: 2rem;
-`
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+`;
 export const Tag = styled.li`
-color: #ffffff;
-font-size: 1.5rem;
-@media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
-}
-`
+  color: #ffffff;
+  font-size: 1.5rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0.3rem;
+  }
+`;
 export const BottomDiv = styled.div`
   grid-area: 3 / 1 / 4 / 2;
-
 `;
 
 export const MainDiv = styled.div`
@@ -168,6 +155,5 @@ export const MainDiv = styled.div`
   height: 363px;
   @media ${(props) => props.theme.breakpoints.sm} {
     height: initial;
-  
-}
+  }
 `;
