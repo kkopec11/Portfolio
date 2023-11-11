@@ -15,13 +15,15 @@ const Welcome = (props) => (
         Krzysztof Kopeć's Portfolio
       </WelcomeTitle>
       <WelcomeText>
-        As a graduating IT enginer with data-base specialization I am aiming to
-        become a full-stack web developer in the future. <br />
-        I am enthusiastic about all fields of programming, with a fascination
-        for front-end and especially React.
+        As an experienced front-end developer and a computer science graduate
+        with a specialization in databases, I aspire to become a full-stack web
+        developer in the future. <br />I am enthusiastic about all areas of
+        programming, with a fascination for the front-end, especially React.
         <br />
-        This is complimented by an analytical approach as evidenced by my
-        success as a Data Science Analyst and SAS Developer.
+        This is complemented by an analytical approach, as evidenced by my
+        success as a data analyst and SAS programmer. <br />I also have
+        experience participating in international projects using Scrum and Agile
+        methodologies.
       </WelcomeText>
     </LeftSection>
   </WelcomeSection>
